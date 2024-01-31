@@ -1,0 +1,42 @@
+.statusContainer{
+    display: flex;
+    margin: 15px 0;
+    justify-content: space-between;
+}
+.TasksConatiner{
+    display: flex;
+    flex-direction: column;
+    border-radius: 5px;
+}
+.taskCount{
+    background-color: #fff;
+    margin-left: 4px;
+    border-radius: 50%;
+    font-size: 10px;
+    height: 17px;
+    width: 17px;
+    font-weight: 700;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    color: black;
+}
+.singleTask{
+    margin: 10px 0;
+    padding: 10px;
+    background-color: #fff;
+    border-radius: 5px;
+    -webkit-box-shadow: 0 0 10px #fff;
+        box-shadow: 0 0 10px #f2f2f2;
+        display: flex;
+        justify-content: space-between;
+}
+.removeBtn{
+    background-color: transparent;
+    outline: none;
+    border: 0;
+    cursor: pointer;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}

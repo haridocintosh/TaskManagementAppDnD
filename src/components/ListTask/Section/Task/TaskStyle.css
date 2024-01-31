@@ -1,0 +1,10 @@
+.singleTask{
+    margin: 10px 0;
+    padding: 10px;
+    background-color: #fff;
+    border-radius: 5px;
+    -webkit-box-shadow: 0 0 10px #fff;
+        box-shadow: 0 0 10px #f2f2f2;
+        display: flex;
+        justify-content: space-between;
+}
